@@ -1,91 +1,59 @@
 body {
-  margin: 0;
   font-family: Arial, sans-serif;
-  background: linear-gradient(135deg, #eef4ff, #dfefff);
-  color: #1f2937;
+  background: linear-gradient(135deg, #eef4ff, #dce9ff);
+  margin: 0;
+  padding: 0;
+  color: #24324a;
 }
 
-.page {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
-.topbar {
-  display: flex;
-  justify-content: flex-end;
-  gap: 1rem;
-  padding: 1rem 2rem;
-}
-
-.topbar a {
-  text-decoration: none;
-  color: #374151;
-  font-size: 0.95rem;
-}
-
-.hero {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
   padding: 2rem;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 14px 35px rgba(0, 0, 0, 0.08);
 }
 
 h1 {
-  font-size: 3rem;
-  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 0.7rem;
+  color: #2341a6;
 }
 
-.subtitle {
-  font-size: 1rem;
-  color: #4b5563;
-  margin-bottom: 1.5rem;
-}
-
-.search-box {
-  width: 100%;
-  max-width: 600px;
-  background: white;
-  padding: 1rem;
-  border-radius: 999px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
-}
-
-.search-box input {
-  width: 100%;
-  border: none;
-  outline: none;
-  font-size: 1rem;
-  padding: 0.3rem 0;
-}
-
-.buttons {
-  margin-top: 1rem;
-  display: flex;
-  justify-content: center;
-  gap: 0.75rem;
-  flex-wrap: wrap;
-}
-
-button {
-  padding: 0.8rem 1.2rem;
-  border: none;
-  border-radius: 6px;
-  background: #2563eb;
-  color: white;
-  cursor: pointer;
-  font-size: 0.95rem;
-}
-
-button:hover {
-  background: #1d4ed8;
+.intro {
+  text-align: center;
+  margin-bottom: 1.2rem;
+  line-height: 1.6;
+  color: #4b5870;
 }
 
 .note {
-  margin-top: 1.2rem;
-  color: #6b7280;
+  background: #f4f7ff;
+  border-left: 5px solid #4b7cff;
+  padding: 0.9rem 1rem;
+  margin: 1rem 0 1.3rem;
+  border-radius: 8px;
+  font-weight: 600;
+  color: #3a4f6b;
+}
+
+.card {
+  padding: 1rem 1.2rem;
+  margin: 1rem 0;
+  border: 1px solid #e3ebff;
+  border-radius: 12px;
+  background: #f9fbff;
+}
+
+.card h2 {
+  margin-top: 0;
+  color: #21459b;
+}
+
+ul {
+  padding-left: 1.2rem;
+  line-height: 1.7;
 }
 
